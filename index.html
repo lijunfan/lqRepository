@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>名片预览</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div>
+        <div class="head">
+            <div id="touxiang">
+                <div id="man"></div>
+            </div>
+            <img id="logo">
+            <div style="font-size:0.56rem;height:0.56rem;color:#FFFFFF;text-align:center;margin-top:0.46rem;" id="nameId"></div>
+            <div style="font-size:0.42rem;color:#FFFFFF;text-align:center;margin-top:0.24rem;">
+                <span id="positionId"></span>
+                <span id="dot"></span>
+                <span id="companyId">苏州中资联管理有限公司</span>
+            </div>
+            <div style="font-size:0.42rem;color:#0A6CCA;text-align:center;margin-top:0.58rem;margin-left: 0.5rem;margin-right: 0.5rem;"
+                id="personalId">个性签名：用心、专注、细致、敬业、务实、学习、责任、坚持</div>
+            <div id="function">
+                <div class="button useInWechat" id="call-phone" style="margin-left:0">
+                    <img src="./img/phone.png">
+                    <span class="span">拨打电话
+                        <a href="javascript:void(0);" id="callPhone" ></a>
+                    </span>
+                </div>
+                <div class="button useInWechat" id="add-weixin">
+                    <img src="./img/wechat.png">
+                    <span class="span">加我微信</span>
+                </div>
+                <div class="button useInWechat" id="collect-card">
+                    <img src="./img/collect.png">
+                    <span class="span">收藏名片</span>
+                </div>
+                <div class="button" id="my-email">
+                    <img src="./img/email.png">
+                    <span class="span">我的邮箱</span>
+                </div>
+            </div>
+            <div id="emailDialog">
+                <div style="font-size:0.56rem;text-align:center;color:#95bae4;padding-top:0.64rem;">我的邮箱</div>
+                <div style="font-size:0.6rem;text-align:center;color:#95bae4;margin-top:0.54rem;margin-bottom:0.64rem;" id="email-text">暂无邮箱</div>
+                <div id="emailDispear">我知道了</div>
+            </div>
+            <div id="useInWechatDialog">
+                <div style="font-size:0.56rem;text-align:center;color:#95bae4;padding-top:0.64rem;">提示</div>
+                <div style="font-size:0.6rem;text-align:center;color:#95bae4;margin-top:0.54rem;margin-bottom:0.64rem;" id="email-text">请在微信中使用此功能</div>
+                <div id="useInWechatDispear">我知道了</div>
+            </div>
+            <div id="fade"></div>
+        </div>
+        <div class="bottom" style="margin-bottom: 2rem;">
+            <div id="company-introduce">
+                <div class="item1"></div>
+                <div class="item2"><span>公司简介</span></div>
+            </div>
+            <div class="zzlInfo">
+                <div style="font-size:0.42rem;color:#97A5B2;line-height:0.72rem;text-indent:2em;" id="companyDescId">中资联公司创建于2011年，总部位于上海，是一家国内领先的，通过金融创新科技，为客户提供集全方位、个性化的普惠金融与财富管理服务、 信用风险评估管理与信用数据挖掘整合服务、融资委托与租赁服务、资产评估管理、信息科技等多种服务于一体的现代综合性金融服务类企业。</div>
+                <div style="margin-top:0.6rem;">
+                    <div style="display:block;word-break: break-all;word-wrap: break-word;">
+                        <span style="font-size:0.42rem;color:#38444D;" id="company1">苏州中资联投资有限公司:</span>
+                        <span style="color:#399EFF;font-size:0.45rem;display:-moz-inline-box; display:inline-block;" id="companyWebsiteId">http://www.zzlrz.com</span>
+                    </div>
+                </div>
+            </div>
+            <div id="address">
+                <img src="./img/address.png" style="width:0.46rem;height:0.58rem;margin-right:0.2rem;float:left;margin-top:-0.1rem;">
+                <p style="font-size:0.42rem;color:black;" id="companyAddId">上海市宝山区长江西路2687号</p>
+            </div>
+        </div>
+    </div>
+
+    <!--收藏-->
+    <div id="card_collect" style="width:100%;height: 100%">
+        <img src="./img/card_collect.png">
+    </div>
+</body>
+<script src="js/zepto.min.js"></script>
+<script src="js/preview.js"></script>
+
+</html>

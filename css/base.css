@@ -1,0 +1,344 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+ol,
+ul,
+li,
+form,
+input,
+textarea,
+dl,
+dt,
+dd,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+
+* {
+  font-family: "Microsoft YaHei", sans-serif;
+  box-sizing: border-box;
+  position: relative;
+}
+
+img {
+  border: none;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'MicrosoftYaHe';
+  background: #F7F7F7;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  html {
+    font-size: 50.66667px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 102.4px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 106.66667px;
+  }
+}
+
+.msgHead {
+  background: #0191D8;
+  width: 100%;
+  height: 0.88rem;
+  text-align: center;
+  line-height: 0.88rem;
+  color: white;
+}
+
+.msgHead-left {
+  width: 1.2rem;
+  height: 0.88rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.msgHead-msg {
+  color: white;
+}
+
+.img {
+  width: 0.29rem;
+  height: 0.46rem;
+  float: left;
+  margin-top: 0.21rem;
+  margin-left: 0.16rem;
+}
+
+.msgBody {
+  width: 100%;
+  padding-left: 0.30rem;
+  background: #FFFFFF;
+}
+
+.uploadPhoto {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: auto;
+  opacity: 0;
+}
+
+.div {
+  overflow: auto;
+  border-bottom: solid #ececef 1px;
+}
+
+.div:last-child {
+  border-width: 0px;
+}
+
+.div.div-photo label {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.arrow-right {
+  width: 0.2rem;
+  height: 0.3rem;
+  float: right;
+  margin-right: 0.32rem;
+  margin-top: 0.27rem;
+}
+
+#children {
+  padding: 0.3rem;
+  background: #FAFAFA;
+  display: none;
+  font-size: 0.3rem;
+  margin-left: -0.3rem;
+}
+
+
+.children-firm {
+  text-align: center;
+  line-height: 0.6rem;
+}
+
+.arrow-right.active {
+  transform: rotate(90deg);
+  -webkit-transform:rotate(90deg);   /*Safari 和 Chrome 支持替代的 -webkit-transform 属性（3D 和 2D 转换）。*/
+}
+
+.tupian {
+  float: right;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-top: 0.15rem;
+  margin-right: 0.35rem;
+}
+
+.code {
+  float: right;
+}
+
+.div label {
+  float: left;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  font-size: 0.32rem;
+}
+
+.div span {
+  font-family: "Microsoft YaHei", sans-serif;
+  float: right;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  margin-right: 0.35rem;
+  color: #908F94;
+  font-size: 0.32rem;
+}
+
+#save {
+  width: 4.24rem;
+  height: 0.89rem;
+  border-radius: 0.44rem;
+  background-image: url("../img/save.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  line-height: 0.89rem;
+  color: #F7F7F7;
+  font-size: 0.32rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0 .8rem;
+  text-align: center;
+}
+
+#characters {
+  color: #D0D4DA;
+  position: absolute;
+  right: 0.35rem;
+  bottom: 0.5rem;
+  font-size: 0.24rem;
+}
+
+.introduction {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  display: block;
+  font-size: 0.32rem;
+}
+
+.textarea {
+  width: calc(100% + 0.3rem);
+  height: 1.12rem;
+  background: #FAFAFA;
+  margin-left: -0.3rem;
+  padding-left: 0.3rem;
+  border: none;
+  resize: none;
+  outline: 0;
+  font-size: 0.30rem;
+}
+
+#touxiang {
+  background-image: url("../img/photo.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#code {
+  background-image: url("../img/code.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#weChatId,
+#telId {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 0.32rem;
+  color: #0191D8;
+  border: none;
+  outline: 0;
+  height: 0.44rem;
+  text-align: right;
+}
+
+#weChatDialog {
+  border: 0.01rem solid black;
+  width: 4rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 0.6rem;
+  margin-left: 1.07rem;
+  margin-right: 1.07rem;
+  display: none;
+  position: fixed;
+  top: 45%;
+  left: 5%;
+  z-index: 9999;
+}
+
+#weChatDispear {
+  border-top: 0.01rem solid #95bae4;
+  text-align: center;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.1rem;
+  color: #399eff;
+  text-align: center;
+  vertical-align: center;
+}
+
+#fade {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 199;
+  display: none;
+}
+
+#main {
+  z-index: 1;
+}

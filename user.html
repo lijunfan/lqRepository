@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <title>个人资料</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <div id="main">
+        <!--<div class="msgHead" style="color:0.34rem">
+            <div class="msgHead-left"><img src="./img/arrow-left.png" class="img"><span style="color:white;font-size:0.3rem">应用</span></div>
+            完善个人基本信息
+        </div>-->
+        <div class="msgBody">
+            <div class="div div-photo">
+                <label class="photo">头像</label>
+                <div class="tupian" id="touxiang" style='overflow:-Scroll;overflow-x:hidden'>
+                    <input type="file" name="file" accept="image/jpg,image/jpeg,image/png" class="uploadPhoto" onchange="uploadHeadImg(this);"
+                    />
+                </div>
+            </div>
+            <div class="div">
+                <label class="name">姓名</label><span id="nameId"></span>
+            </div>
+            <div class="div" id="checkFirm">
+                <label class="company">公司</label><img src="./img/arrow-right.png" class="arrow-right"><span id="lj-company"></span>
+            </div>
+            <div class="div" id="children">
+            </div>
+            <div class="div">
+                <label class="position">职位</label><span id="positionId"></span>
+            </div>
+            <div class="div">
+                <label class="email">邮箱</label><span id="emailId"></span>
+            </div>
+            <div class="div">
+                <label class="mobile">手机</label><span style="color:#0191D8"><input type="number" id="telId" maxlength=""/></span>
+            </div>
+            <div class="div">
+                <label class="wechat">微信号</label><span><input type="text" id="weChatId"/></span>
+            </div>
+            <div class="div div-photo">
+                <label class="uploadCode">上传微信二维码</label>
+                <div class="tupian" id="code" style='overflow:-Scroll;overflow-x:hidden'>
+                    <input type="file" name="file" accept="image/jpg,image/jpeg,image/png" class="uploadPhoto" onchange="uploadWechatQrCode(this);"
+                    />
+                </div>
+            </div>
+            <div style="padding-bottom:0.3rem;">
+                <label class="introduction">个人宣言</label>
+                <textarea class="textarea" onfocus="textareaFocus(this)" maxlength="30" id="personalId">
+                </textarea>
+                <span id="characters">30</span>
+            </div>
+        </div>
+        <div id="save">保&nbsp;&nbsp;存</div>
+    </div>
+</body>
+<script src="js/zepto.min.js"></script>
+<script src="js/index.js"></script>
+
+</html>
